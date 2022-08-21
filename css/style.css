@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: sans-serif;
+    color: white;     
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+   max-width: 1130px;
+   margin: 0 auto; 
+
+}
+
+.header {    
+    position: absolute;
+    z-index: 100;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1790px;
+    top: 28px;
+    left: 56px;
+}
+
+.header a {
+    display: inline-block;
+    background: #e50914;
+    color: white;
+    align-self: flex-start;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 3px;
+
+}
+
+.main {
+    height: 780px;
+    width: auto;
+    background: url("../img/bg/BR-pt-20220815-popsignuptwoweeks-perspective_alpha_website_medium.jpg") center;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+   
+}
+
+.main span {
+    font-size: 26px;
+    margin-top: 10px;
+
+}
+
+.form-cta {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 30px;
+    margin-bottom:10px ;
+}
+
+.form-cta input {
+    padding: 20px 2px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.form-cta button {    
+    font-size: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #e50914;
+    cursor: pointer;
+}
+
+.form-cta button:hover {
+    background: #e50912;
+}
+
+.main p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.main-child {
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+
+}
+
+.main h1 {
+    font-size: 45px;
+    max-width: 510px;
+}
+
+.gradient {
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(to top, 
+    rgba(0,0,0,.8) 0,
+    rgba(0,0,0,0) 60%,
+    rgba(0,0,0,.8) 100%);
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom:0;
+
+}
+
+.section {
+    background: black;
+    padding: 4rem 0;
+    border-top:7px solid #222; 
+    border-bottom: 7px solid #222;  
+
+}
+
+.section h1 {
+    margin-bottom: 16px;
+    font-size: 50px;
+
+}
+
+.section p {
+    font-size: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    align-items: center;
+}
+
+.img-tv {
+    position:relative;
+}
+
+
+.video-tv{
+    position: absolute;
+    top: 21%;
+    left: 13.3%;
+    width: 400px;
+}
+
+.img-tv img {
+    position: relative;
+    z-index: 1;
+}
+
+.download .grid > div:first-child {
+    order: 2;    
+}
+
+.download {
+    order: 1;    
+    background: black;
+
+}
+
+.img-el {
+    position: relative;
+    width: 500px;
+    
+}
+
+.st-png {    
+    left:20%;
+    top: 230%;
+    border-radius: 5px;
+    position: absolute;
+    width: 50px;
+}
+
+.st-png h2 {
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.st-png p {
+    white-space: nowrap;
+    font-size: 1px;
+    color: blue;
+}
+
+.download {
+    border-bottom: 7px solid #222; 
+}
+
+.download h1 {
+    margin-bottom: 16px;
+    font-size: 50px;
+
+}
+
+.download p {
+    font-size: 24px;
+}
+
+.infantil .grid > div:first-child {
+    order: 2;    
+    
+}
+
+.infantil {   
+    order: 1;
+    background: black;    
+    
+}
+
+.infantil h1 {
+    margin-bottom: 16px;
+    font-size: 50px;
+
+}
+
+.infantil p {
+    font-size: 24px;
+}
+
+.device-pile .video-tv {
+    background: black;
+    width: 350px;
+    top:9% ;
+    left: 17%;
+}
+
+.device-pile {
+    background: black;
+    border-bottom: 7px solid #222;  
+}
+
+.device-pile h1 {
+    margin-bottom: 16px;
+    font-size: 50px;
+
+}
+
+.device-pile p {
+    font-size: 24px;
+
+}
+
+.footer {    
+    text-align: center;
+    background: black;
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 0;
+    margin-bottom:10px     
+    
+ }
+
+.footer .form-cta {
+    margin: 0;
+}
+
+.footer input {
+    padding: 20px 2px;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.footer button {    
+    font-size: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: #e50914;
+    cursor: pointer;
+}
+
+.footer button:hover {
+    background: #e50912;
+}
+
+
+
