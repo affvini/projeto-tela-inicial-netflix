@@ -176,23 +176,46 @@ img {
     
 }
 
-.st-png {    
+.st-png {       
+    justify-content: center;   
+    align-items: center;
+    font-size: 10px;    
+    background-color: black;
+    border:2px solid #7a7a7a; 
+    margin-left: 10px; 
+    height: 60px; 
+    width: 360px;   
     left:20%;
-    top: 230%;
-    border-radius: 5px;
-    position: absolute;
-    width: 50px;
-}
-
-.st-png h2 {
-    white-space: nowrap;
-    font-size: 18px;
+    top: 245%;
+    border-radius: 10px;
+    position: absolute;    
 }
 
 .st-png p {
-    white-space: nowrap;
-    font-size: 1px;
-    color: blue;
+    font-size: 10px;
+    color: rgb(0, 140, 255);
+}
+
+
+.st-poster {
+    width: 50px;
+    position: absolute;
+    top:245% ;
+    right:80%;
+    
+
+}
+
+.gif {
+    width: 45px;
+    position: absolute;
+    left: 42%;
+    top: 246.5%;
+}
+
+.images {
+    left: 40px;
+    width: 0px;
 }
 
 .download {
@@ -286,6 +309,8 @@ img {
 .footer button:hover {
     background: #e50912;
 }
+
+
 
 
 
